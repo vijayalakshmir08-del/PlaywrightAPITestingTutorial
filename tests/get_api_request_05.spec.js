@@ -9,3 +9,4 @@ test("Create GET api request in playwright", async ({ request }) => {
   expect(getAPIResponse.ok()).toBeTruthy();
   expect(getAPIResponse.status()).toBe(200);
 });
+//
